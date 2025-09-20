@@ -1,1 +1,0 @@
-// Intentionally left empty to ensure Vite uses vite.config.mjs (JavaScript ESM config)
