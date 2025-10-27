@@ -9,7 +9,7 @@ export function HighFidelityAbout() {
     { number: "50k+", label: "Items Cleaned", color: "from-purple-500 to-purple-600" },
     { number: "99%", label: "Satisfaction Rate", color: "from-orange-500 to-orange-600" }
   ];
-//yep
+
   const values = [
     {
       icon: Users,
