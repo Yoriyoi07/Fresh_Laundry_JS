@@ -7,7 +7,7 @@ import { Badge } from "./ui/badge";
 import { Calculator, Mail, Phone, MapPin, Package, Clock, CheckCircle, ArrowRight, DollarSign } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-
+//sppp
 export function GetQuoteModal({ isOpen, onClose }) {
   const [formData, setFormData] = useState({
     name: "",
