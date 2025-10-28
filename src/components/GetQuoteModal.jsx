@@ -41,7 +41,7 @@ export function GetQuoteModal({ isOpen, onClose }) {
     { id: "monthly", name: "Monthly", discount: 0.05 },
     { id: "one-time", name: "One-Time", discount: 0 },
   ];
-
+//validation
   const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   const validatePhone = (phone) => phone.replace(/\D/g, "").startsWith("09") && phone.replace(/\D/g, "").length === 11;
   const validateZipCode = (zipCode) => zipCode.replace(/\D/g, "").length === 4;
